@@ -6,7 +6,7 @@ import { useGameEngine } from './hooks/useGameEngine';
 import './index.css';
 
 export default function App() {
-  const gameState = useGameEngine(30, 15);
+  const gameState = useGameEngine(20, 15);
   
   return (
     <div className="app-container">
